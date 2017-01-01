@@ -44,6 +44,14 @@ For most apps you wouldn't need to change anything else.
 - `npm start` will fire up the development server and open a browser on `localhost:3000`. It's always watching your files, so you can simply edit and save and let the browser refresh itself.
 - `npm run dist-serve` will build the bundle that will be used for serving on the server. You might need to run this if you want to debug anything, but usually not.
 
+## Styling
+
+In order to get your app the same look and feel as other BudgetKey apps, you only need to do one thing: You main component's template must wrap all your markup in a `<budgetkey-container>…</budgetkey-container>` pair.
+
+Doing this will add the common header and footer, as well as import Bootstrap 3 CSS framework.
+
+Make sure you import `BudgetKeyCommonModule` in your `NgModule` declaration. It's already included in the sample app so you should have no troubles with this.
+
 ## Testing
 
 _(still TBD, the following text is from the original quickstart project)_
