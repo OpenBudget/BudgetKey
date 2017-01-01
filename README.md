@@ -11,14 +11,14 @@ The data can also be queried using a relational query interface, available at [d
 ## Where to start?
 
 - Find an interesting task to start with (_TBD_ on how we manage issues)
-- Read a little about our [workflow](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/Workflow.md)
+- Read a little about our [workflow](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/Workflow.md) _coming up!_
 - See the HowTos below to understand our development environment.
 - Read the documentation, if you need to dive deep in existing code
 
 ## HowTos
 
 - [Front End Development](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/FrontEndDevelopment.md)
-- [Data Wrangling](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/DataWrangling.md)
+- [Data Wrangling](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/DataWrangling.md) _coming up!_
 
 ## Documentation of components
 
@@ -28,6 +28,6 @@ The data can also be queried using a relational query interface, available at [d
 
 - [Deployment](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/Deployment,md) _coming up!_
 
-- [Injestion Pipeline](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/InjestionPipeline.md) _coming up!_
+- [Ingestion Pipeline](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/IngestionPipeline.md) _coming up!_
 
   ​
