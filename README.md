@@ -1,5 +1,7 @@
 # Budget Key Project
 
+[![Tasks Ready to be worked on](https://badge.waffle.io/OpenBudget/BudgetKey.svg?label=ready&title=Ready)](http://waffle.io/OpenBudget/BudgetKey)
+
 ## What is this about?
 
 The Budget Key project aims at being the most up to date and comprehensive non-governmental database of Israeli fiscal data.
