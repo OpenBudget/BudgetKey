@@ -32,4 +32,18 @@ The data can also be queried using a relational query interface, available at [d
 
 - [Ingestion Pipeline](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/IngestionPipeline.md) _coming up!_
 
-  ​
+# Repositories
+
+This is the main repository, where documentation should come.
+
+Issues and pull requests should be made on the individual repositories:
+ - Frontend apps:
+   - Search page: https://github.com/OpenBudget/budgetkey-app-search
+   - Item page: https://github.com/OpenBudget/budgetkey-app-budget-item   
+ - Backend services:
+   - Search API: https://github.com/OpenBudget/open-budget-search-api
+   - Data API: https://github.com/OpenBudget/open-budget-data-api
+   - Nginx Frontend: https://github.com/OpenBudget/open-budget-nginx-frontend
+   - ElasticSearch service: https://github.com/OpenBudget/open-budget-elasticsearch
+ - Data pipeline:
+   - https://github.com/OpenBudget/budgetkey-data-pipelines
