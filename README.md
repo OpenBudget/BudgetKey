@@ -12,8 +12,12 @@ The data can also be queried using a relational query interface, available at [d
 
 ## Where to start?
 
-- Find an interesting task to start with (_TBD_ on how we manage issues)
-- Read a little about our [workflow](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/Workflow.md) _coming up!_
+- Find an interesting task to start with
+  - Some of our starter issues are marked with a 'help wanted' label. 
+    See here a (list of all these isssues)[https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3AOpenBudget+label%3A%22help+wanted%22+label%3Aready+]
+  - You can ping us on Slack (preferrably), on gitter.im (https://gitter.im/OpenBudget) or on Telegram (ask to join)
+  - Consult with Adam, Mushon, Saar or Mary to find the best match for you.
+- Read a little about our [workflow](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/Workflow.md)
 - See the HowTos below to understand our development environment.
 - Read the documentation, if you need to dive deep in existing code
 
@@ -40,6 +44,7 @@ Issues and pull requests should be made on the individual repositories:
  - Frontend apps:
    - Search page: https://github.com/OpenBudget/budgetkey-app-search
    - Item page: https://github.com/OpenBudget/budgetkey-app-budget-item   
+   - Main page: https://github.com/OpenBudget/budgetkey-app-main-page   
  - Backend services:
    - Search API: https://github.com/OpenBudget/open-budget-search-api
    - Data API: https://github.com/OpenBudget/open-budget-data-api
