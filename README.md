@@ -14,7 +14,7 @@ The data can also be queried using a relational query interface, available at [d
 
 - Find an interesting task to start with
   - Some of our starter issues are marked with a 'help wanted' label. 
-    See here a (list of all these isssues)[https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3AOpenBudget+label%3A%22help+wanted%22+label%3Aready+]
+    See here a [list of all these isssues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3AOpenBudget+label%3A%22help+wanted%22+label%3Aready+)
   - You can ping us on Slack (preferrably), on gitter.im (https://gitter.im/OpenBudget) or on Telegram (ask to join)
   - Consult with Adam, Mushon, Saar or Mary to find the best match for you.
 - Read a little about our [workflow](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/Workflow.md)
