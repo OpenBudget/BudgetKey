@@ -41,8 +41,9 @@ For most apps you wouldn't need to change anything else.
 ## How to work with this?
 
 - `npm install` will install all necessary dependencies.
-- `npm start` will fire up the development server and open a browser on `localhost:3000`. It's always watching your files, so you can simply edit and save and let the browser refresh itself.
-- `npm run dist-serve` will build the bundle that will be used for serving on the server. You might need to run this if you want to debug anything, but usually not.
+- `npm run dist` will build the bundle that will be used for serving on the server.
+- `npm start` will fire up the server on `localhost:8000`. 
+- `npm run dist-serve` will run `npm run dist` and then start the server. In addition, it's watching your files, so you can simply edit, save and refresh page in browser. This command is handy for development.
 
 ## Styling
 
@@ -71,15 +72,13 @@ Add more `.spec.ts` files as you wish; we configured karma to find them.
 
 Run it with `npm test`
 
-That command first compiles the application, then simultaneously re-compiles and runs the karma test-runner.
-Both the compiler and the karma watch for (different) file changes.
+That command first compiles the application, then simultaneously re-compiles and runs the karma test-runner. All tests will run only once. To run tests and watch for (different) file changes, use `npm run test-watch`.
 
 Shut it down manually with `Ctrl-C`.
 
 Test-runner output appears in the terminal window.
 We can update our app and our tests in real-time, keeping a weather eye on the console for broken tests.
-Karma is occasionally confused and it is often necessary to shut down its browser or even shut the command down (`Ctrl-C`) and
-restart it. No worries; it's pretty quick.
+Karma is occasionally confused and it is often necessary to shut down its browser or even shut the command down (`Ctrl-C`) and restart it. No worries; it's pretty quick.
 
 ### End-to-end (E2E) Tests
 
@@ -92,7 +91,7 @@ we configured protractor to find them.
 
 Thereafter, run them with `npm run e2e`.
 
-That command first compiles, then simultaneously starts the Http-Server at `localhost:8080`
+That command first compiles, then simultaneously starts the Http-Server at `localhost:8000`
 and launches protractor.  
 
 The pass/fail test results appear at the bottom of the terminal window.
