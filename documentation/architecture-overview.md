@@ -32,11 +32,11 @@ Backend / API, provides the following endpoints:
 ## budgetkey-app-search
   
 Frontend search app, uses the open-budget-search-api endpoints. Example urls:
-* http://next.obudget.org/app/search/
-* http://next.obudget.org/app/search/#/search?term=בדיקה
+* `http://next.obudget.org/app/search/`
+* `http://next.obudget.org/app/search/#/search?term=בדיקה`
   
 ## budgetkey-app-generic-item-page
 
 Show item page for the documents in ES. Example urls:
-* http://next.obudget.org/i/org/company/513390377
-* http://next.obudget.org/i/tenders/520462/office/123/2010
+* `http://next.obudget.org/i/org/company/513390377`
+* `http://next.obudget.org/i/tenders/520462/office/123/2010`
