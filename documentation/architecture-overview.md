@@ -23,7 +23,7 @@ Outputs:
 Backend / API, provides the following endpoints:
 * [search](https://github.com/OpenBudget/open-budget-search-api/blob/master/open_budget_search_api/main.py#L12)
   * used by frontend search app
-  * https://next.obudget.org/search/budget,national-budget-changes,contract-spending,entities/mic/1992-01-01/2019-01-01/10/0
+  * `https://next.obudget.org/search/budget,national-budget-changes,contract-spending,entities/mic/1992-01-01/2019-01-01/10/0`
 * [get](https://github.com/OpenBudget/open-budget-search-api/blob/master/open_budget_search_api/main.py#L26)
   * used by frontend generic item page
   * `https://next.obudget.org/get/org/company/513390377`
