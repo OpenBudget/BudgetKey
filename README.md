@@ -25,6 +25,7 @@ The data can also be queried using a relational query interface, available at [d
 
 - [Front End Development](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/FrontEndDevelopment.md)
 - [Data Wrangling](https://github.com/OpenBudget/budgetkey-data-pipelines/blob/master/README.md)
+- [Using the API](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/UsingTheAPI.md)
 
 ## Documentation of components
 
