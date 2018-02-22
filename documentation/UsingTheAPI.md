@@ -1,6 +1,35 @@
 # How to use the BudgetKey API?
 
-# SEARCH API
+## Query API
+Query the database with any SQL based query.
+
+It has the following structure:
+
+```
+https://next.obudget.org/api/query?query=<SQL Query>
+```
+
+The parameters:
+ - `SQL Query` - any query that you can run on http://data.obudget.org can also be run using the query API.
+
+Note that this API will return at most 100 rows from each query (to prevent abuse etc.)
+
+This API returns its results in JSON format:
+```
+{
+  "rows": [
+    {
+      <column-name>: value
+      ...
+    },
+    ...
+  ],
+  "total": <total-number-of-rows>
+}
+```
+
+
+## Search API
 Search API allows access to the entire recordset of BudgetKey.
 
 The search endpoint has the following structure:
@@ -26,7 +55,7 @@ The parameters:
  - `page-size` - how many results to return. Usually 10 or 20 work well.
  - `offset` - if you're browsing the results, just increment the offset for getting results further down the list.
  
- This API returns its results in JSON format.
+ This API returns its results in JSON format:
  ```
  {
   "search_counts": {
