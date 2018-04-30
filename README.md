@@ -27,16 +27,6 @@ The data can also be queried using a relational query interface, available at [d
 - [Data Wrangling](https://github.com/OpenBudget/budgetkey-data-pipelines/blob/master/README.md) (Python3)
 - [Using the API](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/UsingTheAPI.md)
 
-## Documentation of components
-
-- [Data API Server](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/DataAPIServer.md) _coming up!_
-
-- [Search API Server](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/SearchAPIServer.md) _coming up!_
-
-- [Deployment](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/Deployment,md) _coming up!_
-
-- [Ingestion Pipeline](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/IngestionPipeline.md) _coming up!_
-
 # Repositories
 
 This is the main repository, where documentation should come.
@@ -49,7 +39,17 @@ Issues and pull requests should be made on the individual repositories:
  - Backend services:
    - Search API: https://github.com/OpenBudget/open-budget-search-api
    - Data API: https://github.com/OpenBudget/open-budget-data-api
+   - List Manager API: https://github.com/OpenBudget/budgetkey-list-manager
    - Nginx Frontend: https://github.com/OpenBudget/open-budget-nginx-frontend
    - ElasticSearch service: https://github.com/OpenBudget/open-budget-elasticsearch
+ - Frontend Libraries:
+   - Common Angular2 Components: https://github.com/OpenBudget/budgetkey-ng2-components
+   - Authentication utilities: https://github.com/OpenBudget/budgetkey-ng2-auth
+   - A Specialized Sankey Component: https://github.com/OpenBudget/mushonkey
  - Data pipeline:
    - https://github.com/OpenBudget/budgetkey-data-pipelines
+ - DevOps:
+   - Kubernetes Infrastructure: https://github.com/OpenBudget/budgetkey-k8s
+ - BudgetKey portals:
+   - SocialMap: https://github.com/OpenBudget/socialmap-app-main-page
+   - OpenProcure: https://github.com/OpenBudget/openprocure-app-main-page
