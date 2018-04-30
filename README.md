@@ -23,8 +23,8 @@ The data can also be queried using a relational query interface, available at [d
 
 ## HowTos
 
-- [Front End Development](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/FrontEndDevelopment.md)
-- [Data Wrangling](https://github.com/OpenBudget/budgetkey-data-pipelines/blob/master/README.md)
+- [Front End Development](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/FrontEndDevelopment.md) (Angular2 / HTML / CSS / Node ... )
+- [Data Wrangling](https://github.com/OpenBudget/budgetkey-data-pipelines/blob/master/README.md) (Python3)
 - [Using the API](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/UsingTheAPI.md)
 
 ## Documentation of components
