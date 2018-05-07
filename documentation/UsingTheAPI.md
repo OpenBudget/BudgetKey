@@ -38,6 +38,8 @@ The search endpoint has the following structure:
 https://next.obudget.org/search/<kinds>/<search-term>/<from-date>/<to-date>/<page-size>/<offset>
 ```
 
+(Example: https://next.obudget.org/search/tenders,contract-spending/%D7%A0%D7%95%D7%A2%D7%A8/2008-05-07/2028-05-07/10/0)
+
 The parameters:
  - `kinds` - a comma separated list of document types or the word `all` (for all document types).
    Currently we have in the database the following kinds:
