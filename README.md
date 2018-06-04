@@ -1,6 +1,6 @@
 # Budget Key Project
 
-[![Tasks Ready to be worked on](https://img.shields.io/waffle/label/OpenBudget/BudgetKey/ready.svg?style=flat-square)![Tasks Good for Newcomers](https://img.shields.io/waffle/label/OpenBudget/BudgetKey/help%20wanted.svg?style=flat-square)](http://waffle.io/OpenBudget/BudgetKey)
+[![Tasks Ready to be worked on](https://badge.waffle.io/OpenBudget/BudgetKey.svg?columns=Ready&style=flat-square)![Tasks Good for Newcomers](https://img.shields.io/github/issues/OpenBudget/BudgetKey/help%20wanted.svg?style=flat-square)](http://waffle.io/OpenBudget/BudgetKey)
 
 ## What is this about?
 
