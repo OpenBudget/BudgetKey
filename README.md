@@ -6,7 +6,7 @@
 
 The Budget Key project aims at being the most up to date and comprehensive non-governmental database of Israeli fiscal data.
 
-It has user-facing website (currently available at [obudget.org](http://obudget.org)), using multiple API servers which are running of maticulously collected data from various sources, manually improved and cleaned.
+It has user-facing website (currently available at [obudget.org](http://obudget.org)), using multiple API servers which are running of meticulously collected data from various sources, manually improved and cleaned.
 
 The data can also be queried using a relational query interface, available at [data.obudget.org](http://data.obudget.org) (use any Google account to log in after clicking 'Login with Google').
 
@@ -15,8 +15,8 @@ The data can also be queried using a relational query interface, available at [d
 - Find an interesting task to start with
   - Some of our starter issues are marked with a 'help wanted' label. 
     See here a [list of all these isssues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3AOpenBudget+label%3A%22help+wanted%22+label%3Aready+)
-  - You can ping us on Slack (preferrably), on gitter.im (https://gitter.im/OpenBudget/BudgetKey) or on Telegram (ask to join)
-  - Consult with Adam, Mushon, Saar or Mary to find the best match for you.
+  - You can ping us on Slack (preferably), on gitter.im (https://gitter.im/OpenBudget/BudgetKey) or on Telegram (ask to join)
+  - Consult with Adam, Mushon, Noam or Mary to find the best match for you.
 - Read a little about our [workflow](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/Workflow.md)
 - See the HowTos below to understand our development environment.
 - Read the documentation, if you need to dive deep in existing code
