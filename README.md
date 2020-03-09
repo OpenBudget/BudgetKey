@@ -1,5 +1,7 @@
 # Budget Key Project
 
+[![Join the chat at https://gitter.im/OpenBudget/BudgetKey](https://badges.gitter.im/OpenBudget/BudgetKey.svg)](https://gitter.im/OpenBudget/BudgetKey?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 הי כולם!
 
 ברוכים הבאים לגיטהאב של מפתח התקציב.
