@@ -1,40 +1,62 @@
 # Budget Key Project
 
-[![Tasks Ready to be worked on](https://img.shields.io/waffle/label/OpenBudget/BudgetKey/ready.svg?style=flat-square)![Tasks Good for Newcomers](https://img.shields.io/waffle/label/OpenBudget/BudgetKey/help%20wanted.svg?style=flat-square)](http://waffle.io/OpenBudget/BudgetKey)
+[![Join the chat at https://gitter.im/OpenBudget/BudgetKey](https://badges.gitter.im/OpenBudget/BudgetKey.svg)](https://gitter.im/OpenBudget/BudgetKey?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+הי כולם!
+
+ברוכים הבאים לגיטהאב של מפתח התקציב.
+
+נעבור לאנגלית עכשיו
+
+### BudgetKey Contributor Quickstart
+
+The main channel for discussing issues with the community or with Adam (DM @akariv) is either Slack or Gitter (https://gitter.im/OpenBudget/BudgetKey)
+
+A few links:
+- The starting point on GitHub is [OpenBudget/BudgetKey](https://github.com/OpenBudget/Budgetkey).
+  Here you can find a quick README, links to our 'ready to work on' issues, and some tutorials.
+  In short, we have to main kinds of tasks:
+  - Data Wrangling (i.e. getting new data sources into our DB)
+  - Frontend Development (we have an Angular frontend that always needs some TLC)
+ [See the project's board here](https://github.com/orgs/OpenBudget/projects/3)
+
+  You can find more info in the rest of this README VVVV
+
+- The pipelines dashboard is at https://pipelines.obudget.org - you can see the status of your favorite pipeline there :)
+
+- Access to all of our data is free and easy:
+  - Via SQL use the redash app at https://data.obudget.org (use any Google Account to login)
+  - Via file download at https://next.obudget.org/datapackages
+
+Enjoy and don't hesitate to ping me directly or in the channel!
+
+Adam (@akariv)
 
 ## What is this about?
 
 The Budget Key project aims at being the most up to date and comprehensive non-governmental database of Israeli fiscal data.
 
-It has user-facing website (currently available at [obudget.org]()), using multiple API servers which are running of maticulously collected data from various sources, manually improved and cleaned.
+It has user-facing website (currently available at [obudget.org](http://obudget.org)), using multiple API servers which are running of meticulously collected data from various sources, manually improved and cleaned.
 
-The data can also be queried using a relational query interface, available at [data.obudget.org]() (use any Google account to log in after clicking 'Login with Google').
+The data can also be queried using a relational query interface, available at [data.obudget.org](http://data.obudget.org) (use any Google account to log in after clicking 'Login with Google').
 
 ## Where to start?
 
 - Find an interesting task to start with
   - Some of our starter issues are marked with a 'help wanted' label. 
     See here a [list of all these isssues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3AOpenBudget+label%3A%22help+wanted%22+label%3Aready+)
-  - You can ping us on Slack (preferrably), on gitter.im (https://gitter.im/OpenBudget) or on Telegram (ask to join)
-  - Consult with Adam, Mushon, Saar or Mary to find the best match for you.
+  - You can ping us on Slack (preferably), on gitter.im (https://gitter.im/OpenBudget/BudgetKey) or on Telegram (ask to join)
+  - Consult with Adam, Noam or Mary to find the best match for you.
 - Read a little about our [workflow](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/Workflow.md)
 - See the HowTos below to understand our development environment.
 - Read the documentation, if you need to dive deep in existing code
 
 ## HowTos
 
-- [Front End Development](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/FrontEndDevelopment.md)
-- [Data Wrangling](https://github.com/OpenBudget/budgetkey-data-pipelines/blob/master/README.md)
-
-## Documentation of components
-
-- [Data API Server](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/DataAPIServer.md) _coming up!_
-
-- [Search API Server](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/SearchAPIServer.md) _coming up!_
-
-- [Deployment](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/Deployment,md) _coming up!_
-
-- [Ingestion Pipeline](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/IngestionPipeline.md) _coming up!_
+- [Front End Development](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/FrontEndDevelopment.md) (Angular2 / HTML / CSS / Node ... )
+- [Data Wrangling](https://github.com/OpenBudget/budgetkey-data-pipelines/blob/master/README.md) (Python3)
+- [Using the API](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/UsingTheAPI.md)
+- [Fetching Raw Data](https://github.com/OpenBudget/BudgetKey/blob/master/documentation/RawData.md)
 
 # Repositories
 
@@ -48,7 +70,17 @@ Issues and pull requests should be made on the individual repositories:
  - Backend services:
    - Search API: https://github.com/OpenBudget/open-budget-search-api
    - Data API: https://github.com/OpenBudget/open-budget-data-api
+   - List Manager API: https://github.com/OpenBudget/budgetkey-list-manager
    - Nginx Frontend: https://github.com/OpenBudget/open-budget-nginx-frontend
    - ElasticSearch service: https://github.com/OpenBudget/open-budget-elasticsearch
+ - Frontend Libraries:
+   - Common Angular2 Components: https://github.com/OpenBudget/budgetkey-ng2-components
+   - Authentication utilities: https://github.com/OpenBudget/budgetkey-ng2-auth
+   - A Specialized Sankey Component: https://github.com/OpenBudget/mushonkey
  - Data pipeline:
    - https://github.com/OpenBudget/budgetkey-data-pipelines
+ - DevOps:
+   - Kubernetes Infrastructure: https://github.com/OpenBudget/budgetkey-k8s
+ - BudgetKey portals:
+   - SocialMap: https://github.com/OpenBudget/socialmap-app-main-page
+   - OpenProcure: https://github.com/OpenBudget/openprocure-app-main-page
