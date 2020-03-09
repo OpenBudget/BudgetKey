@@ -10,7 +10,7 @@ Development is also kept easy, as you only need to check out the bit that you're
 
 We try to keep our apps compact and concise. Each app should have one simple purpose. If you see that things get too complicated, it's probably time to split to a few distinct apps, and make the common bits an external library.
 
-- We use **Angular 2** as our framework of choice. Why Angular 2? Because it's good, it's simple, it's common and it has a future. 
+- We use **Angular** (currently on version 7) as our framework of choice. Why Angular? Because it's good, it's simple, it's common and it's maintained. 
 
   - Why not ReactJS / _< any-other-web-framework >_? 
 
@@ -20,82 +20,31 @@ We try to keep our apps compact and concise. Each app should have one simple pur
 
 ## Quickstart
 
-[This repository](https://github.com/OpenBudget/budgetkey-app-sample) is a template for a standard Budget Key app.
+All our repositories share the same installation process and directory structure.
 
-You can clone it (or better - use the latest [master download](https://github.com/OpenBudget/budgetkey-app-sample/archive/master.zip)), add some code and push it to a new repository called `budgetkey-app-something`.
+To install the app:
+- Clone it using git from the relevant repo (there's a list in the main README page)
+- run `npm install`
+- run `npm run dist-serve`
 
-After that, it's super easy to deploy it as a new app in the Budget Key (you just need to add a proper route in [our frontend](https://github.com/OpenBudget/open-budget-nginx-frontend)).
+The last command will build, start a webserver for local development and watch the files for changes.
+This is handy for development, as you can simply edit, save and refresh page in browser.
 
-This repository is based on the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html), with some modifications for deployment and standardisation.
-
-## Where to find stuff
-
-- `app/` holds your app code. You write in there in TypeScript. 
-  - Component styles and templates are kept side by side with the code.
-  - Create folders as necessary to prevent your code from becoming a steamy mess.
-- `assets/` holds any static file you want to attach (images, fonts etc.). You should create folders per content type, e.g. `assets/img/`, `assets/fonts/` etc.
-- `package.json` is where you define your dependencies and metadata about your app.
-
-For most apps you wouldn't need to change anything else.
+All apps were created using Angular's CLI (`ng new ...`), so directory structure is pretty similar.
+You can find most stuff under `src/app/`.
 
 ## How to work with this?
 
-- `npm install` will install all necessary dependencies.
-- `npm run dist` will build the bundle that will be used for serving on the server.
-- `npm start` will fire up the server on `localhost:8000`. 
-- `npm run dist-serve` will run `npm run dist` and then start the server. In addition, it's watching your files, so you can simply edit, save and refresh page in browser. This command is handy for development.
+Angular's CLI tool `ng` is useful for generating new components, services etc.
+e.g. `ng generate component my-new-component` (or `ng g c my-new-component` in short).
 
-## Styling
+## Styling the app
 
-In order to get your app the same look and feel as other BudgetKey apps, you only need to do one thing: You main component's template must wrap all your markup in a `<budgetkey-container>…</budgetkey-container>` pair.
+Usually styles are part of the components, so try to avoid using global styles (there's some old code doing that, don't follow on its example).
 
-Doing this will add the common header and footer, as well as import Bootstrap 3 CSS framework.
+In order to get the app the same look and feel as other BudgetKey apps, we wrap all of our markup in a `<budgetkey-container>…</budgetkey-container>` pair.
 
-Make sure you import `BudgetKeyCommonModule` in your `NgModule` declaration. It's already included in the sample app so you should have no troubles with this.
+Doing this adds the common header and footer, as well as import Bootstrap 3 CSS framework.
 
-## Testing
+For that we import `BudgetKeyCommonModule` in the main `NgModule` declaration. It's already included in all existing apps so this is more of an FYI :) .
 
-_(still TBD, the following text is from the original quickstart project)_
-
-The template app adds both karma/jasmine unit test and protractor end-to-end testing support.
-
-These tools are configured for specific conventions described below.
-
-*It is unwise and rarely possible to run the application, the unit tests, and the e2e tests at the same time.
-We recommend that you shut down one before starting another.*
-
-### Unit Tests
-TypeScript unit-tests are usually in the `app` folder. Their filenames must end in `.spec`.
-
-Look for the example `app/app.component.spec.ts`.
-Add more `.spec.ts` files as you wish; we configured karma to find them.
-
-Run it with `npm test`
-
-That command first compiles the application, then simultaneously re-compiles and runs the karma test-runner. All tests will run only once. To run tests and watch for (different) file changes, use `npm run test-watch`.
-
-Shut it down manually with `Ctrl-C`.
-
-Test-runner output appears in the terminal window.
-We can update our app and our tests in real-time, keeping a weather eye on the console for broken tests.
-Karma is occasionally confused and it is often necessary to shut down its browser or even shut the command down (`Ctrl-C`) and restart it. No worries; it's pretty quick.
-
-### End-to-end (E2E) Tests
-
-E2E tests are in the `e2e` directory, side by side with the `app` folder.
-Their filenames must end in `.e2e-spec.ts`.
-
-Look for the example `e2e/app.e2e-spec.ts`.
-Add more `.e2e-spec.js` files as you wish (although one usually suffices for small projects);
-we configured protractor to find them.
-
-Thereafter, run them with `npm run e2e`.
-
-That command first compiles, then simultaneously starts the Http-Server at `localhost:8000`
-and launches protractor.  
-
-The pass/fail test results appear at the bottom of the terminal window.
-A custom reporter (see `protractor.config.js`) generates a  `./_test-output/protractor-results.txt` file
-which is easier to read; this file is excluded from source control.
-
-Shut it down manually with `Ctrl-C`
