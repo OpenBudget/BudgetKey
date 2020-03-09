@@ -18,7 +18,8 @@ A few links:
   In short, we have to main kinds of tasks:
   - Data Wrangling (i.e. getting new data sources into our DB)
   - Frontend Development (we have an Angular frontend that always needs some TLC)
- [See the project's board here](https://github.com/orgs/OpenBudget/projects/3)
+
+  [See the project's board here](https://github.com/orgs/OpenBudget/projects/3)
 
   You can find more info in the rest of this README VVVV
 
