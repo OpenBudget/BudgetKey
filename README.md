@@ -1,6 +1,6 @@
 # Budget Key Project
 
-[![Join the chat at https://gitter.im/OpenBudget/BudgetKey](https://badges.gitter.im/OpenBudget/BudgetKey.svg)](https://gitter.im/OpenBudget/BudgetKey?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Discord](https://img.shields.io/discord/758246813781983252.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/S9JBJSE)
 
 הי כולם!
 
