@@ -32,7 +32,12 @@ This API returns its results in JSON format:
 ## Search API
 Search API allows access to the entire recordset of BudgetKey.
 
-We use the [apies](https://github.com/dataspot/apies) library to create the API, detailed information on the different parameters can be found there. 
+We use the [apies](https://github.com/dataspot/apies) library to create the API, detailed information on the different parameters can be found there. The library's endpoint is locatated at 
+
+```
+https://next.obudget.org/search/<doc-type>
+```
+
 
 The main data types that we expose are:
    - `budget` (items from the national budget)
@@ -41,3 +46,5 @@ The main data types that we expose are:
    - `supports` (supports, subsidies, transfers of funds from the government to organizations)
    - `tenders` (information about tender process in which the government intends to buys stuff)
    - `contract-spending` (information about actual money transactions with actual suppliers)
+   
+(use `all` to fetch documents from all types)
