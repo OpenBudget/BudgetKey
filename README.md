@@ -64,19 +64,12 @@ The data can also be queried using a relational query interface, available at [d
 This is the main repository, where documentation should come.
 
 Issues and pull requests should be made on the individual repositories:
- - Frontend apps:
-   - Search page: https://github.com/OpenBudget/budgetkey-app-search
-   - Item page: https://github.com/OpenBudget/budgetkey-app-budget-item   
-   - Main page: https://github.com/OpenBudget/budgetkey-app-main-page   
+ - Frontend apps: https://github.com/OpenBudget/budgetkey-app
  - Backend services:
-   - Search API: https://github.com/OpenBudget/open-budget-search-api
-   - Data API: https://github.com/OpenBudget/open-budget-data-api
-   - List Manager API: https://github.com/OpenBudget/budgetkey-list-manager
+   - APIs: https://github.com/OpenBudget/budgetkey-api
    - Nginx Frontend: https://github.com/OpenBudget/open-budget-nginx-frontend
    - ElasticSearch service: https://github.com/OpenBudget/open-budget-elasticsearch
  - Frontend Libraries:
-   - Common Angular2 Components: https://github.com/OpenBudget/budgetkey-ng2-components
-   - Authentication utilities: https://github.com/OpenBudget/budgetkey-ng2-auth
    - A Specialized Sankey Component: https://github.com/OpenBudget/mushonkey
  - Data pipeline:
    - https://github.com/OpenBudget/budgetkey-data-pipelines
